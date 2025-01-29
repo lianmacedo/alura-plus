@@ -157,3 +157,51 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+
+
+.container__imagem-sup {
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem-sup {
+        display: block;
+        width: 80vw;
+    }
+
+    .container__imagem {
+        width: 70vw;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+        text-align: center;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 70vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+    .dispositivos__titulo {
+        margin: 1em 1em;
+    }
+}
